@@ -67,5 +67,4 @@ const CartPage = ({ cart, setCart }) => {
     </div>
   );
 };
-
 export default CartPage;
