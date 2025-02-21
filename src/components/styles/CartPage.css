@@ -3,7 +3,7 @@
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background: #ffffff;
+    background: #f8f6f6;
     border-radius: 8px;
     font-family: Arial, sans-serif;
   }
@@ -84,8 +84,8 @@
   
   /* Delete Button */
   .delete-btn {
-    border: 1px solid #000;
-    background: transparent;
+    border: 1px solid rgb(239, 66, 66);
+    background: rgb(239, 66, 66);
     padding: 6px 10px;
     font-size: 14px;
     cursor: pointer;
@@ -94,8 +94,9 @@
   }
   
   .delete-btn:hover {
-    background: #000;
-    color: #fff;
+    border: 1px solid  #e89494;
+    background: #e89494;
+    color: #0c0c0c;
   }
   
   /* Total Amount */

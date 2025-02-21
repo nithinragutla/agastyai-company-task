@@ -123,17 +123,22 @@ const addToCart = (product) => {
 
         {/* Product Grid */}
         <div className="product-grid">
-        {filterProducts().map((product) => (
-          <div key={product.id} className="product-card">
-            <img src={product.imageURL} alt={product.name} className="product-image" />
-            <h3>{product.name}</h3>
-            <p>₹ {product.price}</p>
-            <button className="add-cart-btn" onClick={() => addToCart(product)}>
-              Add to Cart
-            </button>
-          </div>
-        ))}
-      </div>
+  {filterProducts().map((product) => (
+    <div key={product.id} className="product-card">
+      <img src={product.imageURL} alt={product.name} className="product-image" />
+      <h3>{product.name}</h3>
+      <p>₹ {product.price}</p>
+      <button 
+        className="add-cart-btn" 
+        onClick={() => {
+          addToCart(product);
+        }}
+      >
+        Add to Cart
+      </button>
+    </div>
+  ))}
+</div>
 
       </div>
       
