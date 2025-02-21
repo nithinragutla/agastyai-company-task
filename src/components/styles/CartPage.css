@@ -1,4 +1,5 @@
-/* Cart Container */
+/* CartPage.css */
+
 .cart-container {
     max-width: 600px;
     margin: 40px auto;
@@ -15,7 +16,6 @@
     color: #000;
   }
   
-  /* Cart Items */
   .cart-item {
     display: flex;
     align-items: center;
@@ -24,15 +24,14 @@
     border-bottom: 1px solid #ddd;
   }
   
-  /* Product Image */
   .cart-image {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
     background: #ddd;
     border-radius: 4px;
   }
   
-  /* Cart Details */
   .cart-details {
     flex: 1;
     margin-left: 15px;
@@ -51,14 +50,12 @@
     margin: 2px 0;
   }
   
-  /* Controls Section (Quantity + Delete Button) */
   .cart-controls {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adds spacing between elements */
+    gap: 10px;
   }
   
-  /* Quantity Controls */
   .quantity-controls {
     display: flex;
     align-items: center;
@@ -82,7 +79,6 @@
     margin: 0 5px;
   }
   
-  /* Delete Button */
   .delete-btn {
     border: 1px solid rgb(239, 66, 66);
     background: rgb(239, 66, 66);
@@ -94,12 +90,11 @@
   }
   
   .delete-btn:hover {
-    border: 1px solid  #e89494;
+    border: 1px solid #e89494;
     background: #e89494;
     color: #0c0c0c;
   }
   
-  /* Total Amount */
   .total-container {
     display: flex;
     justify-content: space-between;
@@ -110,7 +105,6 @@
     color: #000;
   }
   
-  /* Back Button */
   .back-btn {
     display: inline-block;
     margin-top: 20px;
@@ -123,4 +117,3 @@
     color: #555;
   }
   
-
