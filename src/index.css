@@ -1,0 +1,18 @@
+/* body {
+  margin: 0;
+  padding-top: 60px; Ensures content is not hidden behind the fixed navbar
+  font-family: Arial, sans-serif;
+}
+
+
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+} */

@@ -1,0 +1,125 @@
+/* Cart Container */
+.cart-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cart-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  /* Cart Items */
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Product Image */
+  .cart-image {
+    width: 50px;
+    height: 50px;
+    background: #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Cart Details */
+  .cart-details {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .cart-details h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+  }
+  
+  .cart-details p {
+    font-size: 14px;
+    color: #444;
+    margin: 2px 0;
+  }
+  
+  /* Controls Section (Quantity + Delete Button) */
+  .cart-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between elements */
+  }
+  
+  /* Quantity Controls */
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .quantity-controls button {
+    border: none;
+    background: transparent;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .quantity-controls span {
+    margin: 0 5px;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  /* Total Amount */
+  .total-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Back Button */
+  .back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .back-btn:hover {
+    color: #555;
+  }
+  
+
