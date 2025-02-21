@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ShoppingCart from "./components/ShoppingCart";
 import CartPage from "./components/cartpage"; // Ensure correct casing
-import Navbar from "./components/navbar";      // Ensure correct casing
+import Navbar from './components/Navbar'; // Case-sensitive
+   
 
 const App = () => {
   const [cart, setCart] = useState([]);
